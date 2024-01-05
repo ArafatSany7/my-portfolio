@@ -9,6 +9,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 150px;
 }
 .nav-tittle{
 color: var(--Dark-01, #181818);
@@ -43,4 +44,18 @@ nav a{
     font-weight: 700;
     padding: 15px 35px;
 
+}
+
+/* header realted style */
+
+.header{
+    background-color: #FFF8F3;
+
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+}
+.banner .profilepic{
+    width: 300px;
 }

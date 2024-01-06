@@ -3,7 +3,20 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+.section-tittle{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 
+}
+.section-para{
+    color: var(--Dark-03, #757575);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
 /* nav related css */
 nav{
     display: flex;
@@ -12,7 +25,7 @@ nav{
     margin: 0px 150px;
 }
 .nav-tittle{
-color: var(--Dark-01, #181818);
+color: #181818;
 font-size: 45px;
 font-style: normal;
 font-weight: 800;
@@ -50,12 +63,45 @@ nav a{
 
 .header{
     background-color: #FFF8F3;
+    background-image: url('../my-portfolio/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
 }
+
+.banner-content{
+    max-width: 500px;
+}
+
 .banner{
-    padding: 30px 30px 30px 150px ;
+    padding: 30px 10px 0px 150px ;
     display: flex;
+    justify-content: space-between;
 }
 .banner .profilepic{
     width: 300px;
+}
+.banner-gretting{
+    font-size: 30px;
+    color: #464646;
+    margin-bottom: 0;
+
+}
+.banner-tittle{
+    font-size: 80px;
+    font-weight: 600%;
+    margin-top: 5px;
+
+}
+
+/* main section style */
+
+
+
+/* about scetion style*/
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 130px;
 }
